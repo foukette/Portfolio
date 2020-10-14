@@ -87,7 +87,7 @@ logo_dark = "images/logo-dark.png"
 description = "This is meta description"
 author = "somrat"
 # contact form action
-contact_form_action = "" # contact form works with https://formspree.io
+contact_form_action = "mailto:florian.deconinck@isen.yncrea.fr" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 
@@ -97,18 +97,6 @@ enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
-[[params.social]]
-icon = "fa-facebook-f" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.facebook.com/somrat.mac"
-
-[[params.social]]
-icon = "fa-twitter" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://twitter.com/somrat_37"
-
-[[params.social]]
-icon = "fa-instagram" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.instagram.com/somrat_sorkar/"
-
 [[params.social]]
 icon = "fa-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
 link = "https://github.com/Somrat37"

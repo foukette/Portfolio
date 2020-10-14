@@ -6,9 +6,6 @@
       Start Header
     =============================== -->
 <section class="header" id="home">
-  <div class="logo">
-    <img class="img-fluid" src="{{ .Site.Params.logo_light | relURL }}" alt="{{ .Site.Title }}">
-  </div>
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
@@ -211,7 +208,7 @@
     <div class="row experience-skill">
       {{ if $data.homepage.experience.enable }}
       {{ with $data.homepage.experience }}
-      <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-lg-12 col-sm-12 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
         <h3>{{ .title }}</h3>
         <ul class="experience-chart">
           {{ range .experience_list }}
@@ -440,9 +437,6 @@
         </ul>
         <div class="to-top">
           <a href="#home"><i class="fa fa-chevron-up"></i></a>
-        </div>
-        <div class="credit">
-          <i class="fa fa-copyright"></i> {{ .Site.Params.copyright | markdownify }}
         </div>
       </div>
     </div>
