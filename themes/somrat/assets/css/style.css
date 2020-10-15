@@ -858,7 +858,7 @@ input:checked + label span:last-child {
 
 .about-me-text h1 {
   position: relative;
-  color: #6f6f6f;
+  color: #febd01;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -933,7 +933,7 @@ input:checked + label span:last-child {
 
 .experience h3,
 .skill h3 {
-  color: #6f6f6f;
+  color: #febd01;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -971,11 +971,11 @@ ul.experience-chart li:after {
 }
 
 ul.experience-chart li:hover:after {
-  background: #4d4d4d;
+  background: #febd01;
 }
 
 ul.experience-chart h4 {
-  font-size: 19px;
+  font-size: 25px;
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 700;
@@ -985,10 +985,12 @@ ul.experience-chart h4 {
 .experience-chart li span {
   font-weight: 700;
   color: #6f6f6f;
+  font-size: 17px;
 }
 
 .experience-chart li p {
   color: #6f6f6f;
+  font-size: 16px;
 }
 
 .single-experience {
@@ -1081,7 +1083,7 @@ ul.experience-chart h4 {
 }
 
 .services-heading h1 {
-  color: #6f6f6f;
+  color: #febd01;
   text-align: center;
   font-weight: 700;
   letter-spacing: 4px;
@@ -1109,7 +1111,7 @@ ul.experience-chart h4 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   padding-bottom: 40px;
 }
 
@@ -1126,11 +1128,15 @@ ul.experience-chart h4 {
   position: absolute;
   left: 0;
   right: 0;
-  top: 100px;
+  top: 110px;
   text-align: center;
-  font-weight: 700;
   letter-spacing: -0.5px;
-  font-size: 19px;
+  font-size: 16px;
+  color: #6f6f6f;
+}
+
+.service-label h2{
+  color: #4d4d4d;
 }
 
 .need-service {
@@ -1204,7 +1210,7 @@ ul.experience-chart h4 {
 }
 
 .portfolio h1 {
-  color: #6f6f6f;
+  color: #febd01;
   text-align: center;
   font-weight: 700;
   letter-spacing: 4px;
@@ -1566,7 +1572,7 @@ ul.experience-chart h4 {
 .contact-holder h1 {
   position: relative;
   text-align: center;
-  color: #fff;
+  color: #febd01;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -1639,7 +1645,7 @@ textarea.form-control::-webkit-input-placeholder,
   display: inline-flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  width: 210px;
+  width: 70px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;

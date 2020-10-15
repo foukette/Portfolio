@@ -34,12 +34,31 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "It's Florian Deconinck, a french student in Master I at Isen Lille in Big Data program. I am looking for a three-month or four-month intership in Big Data from the beginning of May to the end of August 2021."
+  content : "I am Florian Deconinck, a french student in Master I at Isen Lille in Big Data program. I am looking for a three-month or four-month intership in Big Data from the beginning of May to the end of August 2021."
   # button
   button:
     enable : true
     label : "DOWNLOAD MY CV"
     link : "cv/Curriculumvitae.pdf" # you can put your cv in static folder and give the path here.
+
+###########################3 Formation ##############################
+formation:
+  enable : true
+  title : "FORMATION"
+  formation_list:
+    # experience item loop
+    - name : "Masters in Engineering"
+      company : "ISEN, Lille"
+      duration : "2017 - Now"
+      content : "Currently in Master I specializing in Big Data."
+
+    # experience item loop
+    - name : "High school diploma"
+      company : "Intitut de Genech"
+      duration : "Graduated June 2017"
+      content : "Scientific french high School diploma with honours and English option."
+
+
 
 ###########################3 Experience ##############################
 experience:
@@ -47,14 +66,14 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Popeye Village Malta : "
+    - name : "Beach Boy"
+      company : "Popeye Village Malta"
       duration : "July 2019 - August 2019"
       content : "I was a Beach boy for 2 months at Popeye Village in Malta. My job was to set up the deckchairs on the beach, mattresses and umbrellas in the morning before vacationers arrive and put them away in the evening. Ensure that the beach stays clean during the day. This allowed me to develop my sense of organization, interpersonal skills and my level of English."
 
     # experience item loop
     - name : "Order Picker"
-      company : "Madeco, Seclin : "
+      company : "Madeco, Seclin"
       duration : "June 2018 - July 2018"
       content : "Organization and preparation of product orders. This allowed me to become more organized and develop my ability to work at a pace."
 
@@ -83,31 +102,37 @@ skill:
 ################################### Service ##############################3
 service:
   enable : true
-  title : "SERVICES"
+  title : "SKILLS"
   service_list:
     # service item loop
-    - name : "Web Development"
+    - name : "Python"
+      content : "Pandas, Numpy, Scikit-learn, Matplotlib, OpenCv"
+      image : "images/icons/Python.png"
+
+    # service item loop
+    - name : "Web technologies"
+      content : " HTML/CSS, JavaScript, Java, PHP"
+      image : "images/icons/web.jpg"
+
+    # service item loop
+    - name : "Other language"
+      content : "R, C, C++"
       image : "images/icons/web-development.png"
 
     # service item loop
-    - name : "Graphic Design"
-      image : "images/icons/graphic-design.png"
+    - name : "Soft skills"
+      content : "Teamwork, Problem-solving, Adaptability, Critical thinking, Organization"
+      image : "images/icons/softskills.jpg"
 
     # service item loop
-    - name : "Database Management"
-      image : "images/icons/dbms.png"
+    - name : "English"
+      content: "Level B2, Cambridge English B2 First"
+      image : "images/icons/english.jpg"
 
     # service item loop
-    - name : "Software Development"
-      image : "images/icons/software-development.png"
-
-    # service item loop
-    - name : "Digital Marketing"
-      image : "images/icons/marketing.png"
-
-    # service item loop
-    - name : "Mobile App Development"
-      image : "images/icons/mobile-app.png"
+    - name : "Spanish"
+      content : "Elementary"
+      image : "images/icons/spanish.png"
 
 
 ############################## call to action #########################
@@ -127,10 +152,20 @@ portfolio:
   title : "PORTFOLIO"
   portfolio_list:
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item1.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
+    - name : "Tennis Prediction"
+      image : "images/portfolio/tennis.jpg"
+      date : "June 2020"
+      category : "Logistic Regression"
+
+    - name : "Dots and Boxes"
+      image : "images/portfolio/DotsnBoxes.png"
+      date : "October 2020"
+      category : "Reinforcement Learning"
+
+    - name : "Masked recognition AI"
+      image : "images/portfolio/mask.jpg"
+      date : "October 2020"
+      category : "Deep learning"
 
 ################################# Testimonial #########################33
 testimonial:
