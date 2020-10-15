@@ -152,17 +152,17 @@ portfolio:
   portfolio_list:
     # portfolio item loop
     - name : "Tennis Prediction"
-      image : "images/portfolio/tennis.jpg"
+      image : "images/portfolio/tennis1.jpg"
       date : "June 2020"
       category : "Logistic Regression"
 
     - name : "Dots and Boxes"
-      image : "images/portfolio/DotsnBoxes.png"
+      image : "images/portfolio/DotsnBoxes1.png"
       date : "October 2020"
       category : "Reinforcement Learning"
 
     - name : "Masked recognition AI"
-      image : "images/portfolio/mask.jpg"
+      image : "images/portfolio/mask1.jpg"
       date : "October 2020"
       category : "Deep learning"
 
