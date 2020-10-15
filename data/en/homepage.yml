@@ -155,16 +155,22 @@ portfolio:
       image : "images/portfolio/tennis1.jpg"
       date : "June 2020"
       category : "Logistic Regression"
+      description : "salut à tous"
+      label : "TennisPrediction"
 
     - name : "Dots and Boxes"
       image : "images/portfolio/DotsnBoxes1.png"
       date : "October 2020"
       category : "Reinforcement Learning"
+      description : "salut à tous"
+      label : "DotsandBoxes"
 
     - name : "Masked recognition AI"
       image : "images/portfolio/mask1.jpg"
       date : "October 2020"
       category : "Deep learning"
+      description : "salut à tous"
+      label : "MaskedrecognitionAI"
 
 ################################# Testimonial #########################33
 testimonial:

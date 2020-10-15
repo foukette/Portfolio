@@ -16,8 +16,6 @@ link = "plugins/fontawesome/font-awesome.min.css"
 [[params.plugins.css]]
 link = "plugins/hover/hover.css"
 [[params.plugins.css]]
-link = "plugins/magnific-popup/magnific-popup.css"
-[[params.plugins.css]]
 link = "plugins/owl-carousel/owl.carousel.min.css"
 [[params.plugins.css]]
 link = "plugins/owl-carousel/owl.theme.default.min.css"
@@ -39,8 +37,6 @@ link = "plugins/text-animation/text-animation.js"
 link = "plugins/jquery.waypoints.min.js"
 [[params.plugins.js]]
 link = "plugins/filterizr/jquery.filterizr.min.js"
-[[params.plugins.js]]
-link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/owl-carousel/owl.carousel.min.js"
 
