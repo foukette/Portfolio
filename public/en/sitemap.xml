@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://examplesite.com/categories/</loc>
+    <loc>https://foukette.github.io/Portfolio/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://examplesite.com/fr/categories/"
+                href="https://foukette.github.io/Portfolio/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://examplesite.com/categories/"
+                href="https://foukette.github.io/Portfolio/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://examplesite.com/</loc>
+    <loc>https://foukette.github.io/Portfolio/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://examplesite.com/fr/"
+                href="https://foukette.github.io/Portfolio/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://examplesite.com/"
+                href="https://foukette.github.io/Portfolio/"
                 />
   </url>
   
   <url>
-    <loc>https://examplesite.com/tags/</loc>
+    <loc>https://foukette.github.io/Portfolio/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://examplesite.com/fr/tags/"
+                href="https://foukette.github.io/Portfolio/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://examplesite.com/tags/"
+                href="https://foukette.github.io/Portfolio/tags/"
                 />
   </url>
   
