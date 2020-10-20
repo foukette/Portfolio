@@ -16,6 +16,8 @@ link = "plugins/fontawesome/font-awesome.min.css"
 [[params.plugins.css]]
 link = "plugins/hover/hover.css"
 [[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
 link = "plugins/owl-carousel/owl.carousel.min.css"
 [[params.plugins.css]]
 link = "plugins/owl-carousel/owl.theme.default.min.css"
@@ -37,6 +39,8 @@ link = "plugins/text-animation/text-animation.js"
 link = "plugins/jquery.waypoints.min.js"
 [[params.plugins.js]]
 link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/owl-carousel/owl.carousel.min.js"
 
@@ -88,6 +92,7 @@ enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
+
 [[params.social]]
 icon = "fa-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
 link = "https://github.com/foukette"
@@ -95,6 +100,10 @@ link = "https://github.com/foukette"
 [[params.social]]
 icon = "fa-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
 link = "https://www.linkedin.com/in/florian-deconinck-28500a1a2/"
+
+[[params.social]]
+icon = "fa-envelope" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+link = "mailto:florian.deconinck@isen.yncrea.fr"
 
 
 ################################### English language #####################################
@@ -105,7 +114,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+copyright = "Deconinck Florian 2020"
 
 
 ################################### French language #####################################
@@ -116,4 +125,4 @@ contentDir = "content/french"
 weight = 2
 home = "Accueil"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+copyright = "Deconinck Florian 2020"

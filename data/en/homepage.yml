@@ -15,7 +15,7 @@ hero:
 
   # button
   button:
-    enable : false
+    enable : true
     label : "HIRE ME"
     link : "#contact"
 
@@ -40,6 +40,7 @@ about:
     label : "DOWNLOAD MY CV"
     link : "cv/Curriculumvitae.pdf" # you can put your cv in static folder and give the path here.
 
+
 ###########################3 Formation ##############################
 formation:
   enable : true
@@ -56,7 +57,6 @@ formation:
       company : "Intitut de Genech"
       duration : "Graduated June 2017"
       content : "Scientific french high School diploma with honours and English option."
-
 
 
 ###########################3 Experience ##############################
@@ -76,6 +76,7 @@ experience:
       duration : "June 2018 - July 2018"
       content : "Organization and preparation of product orders. This allowed me to become more organized and develop my ability to work at a pace."
 
+
 ############################### Skill #################################
 skill:
   enable : false
@@ -83,7 +84,7 @@ skill:
   skill_list:
     # skill item loop
     - name : "Web Development"
-      parcentage : "75%"
+      parcentage : "98%"
 
     # skill item loop
     - name : "Graphic Design"
@@ -148,29 +149,39 @@ call_to_action:
 ############################# portfolio ################################
 portfolio:
   enable : true
-  title : "PORTFOLIO"
+  title : "PROJECTS"
   portfolio_list:
     # portfolio item loop
     - name : "Tennis Prediction"
       image : "images/portfolio/tennis1.jpg"
       date : "June 2020"
       category : "Logistic Regression"
-      description : "salut à tous"
-      label : "TennisPrediction"
+      link: https://github.com/Thrynk/Tennis-prediction
+      intro: This is my first project in Data Science. I’m a fan of tennis, after practicing during 7 years. I missed the court. What could be more interesting than studying Data Science with a little bit of nostalgia. We tried to answer Can tennis outcomes be predicted thanks to data available on the internet ?
+      para: I did this project with a friend of mine. We had 3 weeks to do the analysis and create a dashboard on a website to see latest tweets regarding tennis, see different results of tennis matches and link our predictions to it. We reached an accuracy of 65% by using elo rating of player in a Logistic Regression. That is a good score already but we then tried to do a more deeper analysis.
+      para2 : We tried to compute more features to see if we can beat this accuracy. We performed different steps to reach our goal, Data collection, Data cleaning, Feature scaling, Feature Engineering, Feature selection and Recursive feature elimination.
 
+    # portfolio item loop
     - name : "Dots and Boxes"
       image : "images/portfolio/DotsnBoxes1.png"
       date : "October 2020"
       category : "Reinforcement Learning"
-      description : "salut à tous"
-      label : "DotsandBoxes"
+      link :
+      intro : "In this school project, we have to program an AI playing the game Dots and Boxes. Our AI will be evaluated in a tournament where all the AI of the class are attending."
+      para : "I’m currently programming a handmade algorithm, and after that I will train a Reinforcement Learning AI against my algorithm. To evaluate the different AIs developed by each student of the class, a tournament is organized in which all the AIs will face each others."
+      para2 : "There is not much content now, because I just started the project. But I will update this project page during the project, so stay in touch !"
 
+    # portfolio item loop
     - name : "Masked recognition AI"
       image : "images/portfolio/mask1.jpg"
       date : "October 2020"
-      category : "Deep learning"
-      description : "salut à tous"
-      label : "MaskedrecognitionAI"
+      category : "Deep Learning"
+      link : https://github.com/romainmeunier93/MaskProject
+      intro : "In this school project, we are a team of 5 students, and we are challenged to program an AI that will understand thanks to a photo if a human is wearing a safety mask or not, but also if this safety mask is well-worn"
+      para : "This project will help me discover Neural Networks, and Computer Vision."
+      para2: "There is not much content yet, because we just started the project. But I will update this project page as things progress, so stay in touch !"
+
+
 
 ################################# Testimonial #########################33
 testimonial:
@@ -227,4 +238,4 @@ funfacts:
 ############################## contact ###########################
 contact:
   enable : true
-  title : "SAY HELLO!"
+  title : "CONTACT ME"

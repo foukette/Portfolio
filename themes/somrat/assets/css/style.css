@@ -985,12 +985,12 @@ ul.experience-chart h4 {
 .experience-chart li span {
   font-weight: 700;
   color: #6f6f6f;
-  font-size: 17px;
 }
 
 .experience-chart li p {
   color: #6f6f6f;
-  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .single-experience {
@@ -1111,8 +1111,8 @@ ul.experience-chart h4 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 70px;
-  padding-bottom: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 100px;
 }
 
 .service-img {
@@ -1128,15 +1128,19 @@ ul.experience-chart h4 {
   position: absolute;
   left: 0;
   right: 0;
-  top: 110px;
+  top: 100px;
   text-align: center;
   letter-spacing: -0.5px;
-  font-size: 16px;
-  color: #6f6f6f;
+  font-size: 19px;
 }
 
 .service-label h2{
-  color: #4d4d4d;
+  font-weight: 700;
+}
+
+.service-label p{
+  color: #6f6f6f;
+  font-size: 18px;
 }
 
 .need-service {
@@ -1217,6 +1221,24 @@ ul.experience-chart h4 {
   position: relative;
 }
 
+.project {
+  text-align: center;
+  color: #6f6f6f;
+}
+
+.project h2{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+
+.project span {
+  font-weight: 700;
+  font-size: 20px;
+}
+
 .portfolio h1:before {
   content: "";
   height: 5px;
@@ -1288,15 +1310,120 @@ ul.experience-chart h4 {
 
 .filtr-item img {
   width: 100%;
-
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.portfolio_descritpion{
-  visibility: hidden;
+.infobulle {
+  display: block;
 }
 
-.loadmore:hover .portfolio_descritpion{
-  visibility: visible;
+.filtr-item button {
+  background-color: white;
+  color: black;
+  border: 2px solid  #6f6f6f;
+  padding: 10px 20px;
+}
+
+.filtr-item button:hover {
+  background-color: #febd01;
+  color: white;
+}
+
+.filtr-item:hover .item-holder img {
+  -webkit-transform: translateX(150px);
+  transform: translateX(150px);
+  cursor: pointer;
+}
+
+.item-holder {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  overflow: hidden;
+}
+
+.item-caption {
+  position: absolute;
+  top: 24px;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  background: #313131;
+  -webkit-transform: translateX(-150px);
+  transform: translateX(-150px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.item-caption h2 {
+  font-size: 32px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  padding-left: 13px;
+}
+
+.item-caption p {
+  padding-left: 16px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
+.item-created {
+  text-decoration: none;
+  position: absolute;
+  bottom: 16px;
+  left: 17px;
+  background: #6f6f6f;
+  padding: 5px 10px;
+}
+
+.filtr-item:hover .item-caption {
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.item-holder a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.item-holder a:focus {
+  outline: none;
+}
+
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder,
+.mfp-close {
+  cursor: crosshair;
+}
+
+.loadmore {
+  display: inline-block;
+  background: transparent;
+  margin-top: 25px;
+  text-decoration: none;
+  color: #6f6f6f;
+  font-family: 'Rubik', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  border: 2px solid #6f6f6f;
+  padding: 5px 18px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.loadmore:hover {
+  background: #6f6f6f;
+  color: #fff;
+  border: 2px solid #6f6f6f;
+  text-decoration: none;
 }
 
 /*--------------------------------
@@ -1558,7 +1685,7 @@ textarea.form-control::-webkit-input-placeholder,
   display: inline-flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  width: 70px;
+  width: 120px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;

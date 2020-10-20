@@ -32,11 +32,6 @@
               </span>
             </strong>
           </div>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a class="hireMe" href="{{ .link }}">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
         </div>
       </div>
     </div>
@@ -101,7 +96,6 @@
       </ul>
       <!-- Language List -->
       {{- if .Site.IsMultiLingual }}
-      <!--
       <select id="select-language" onchange="location = this.value;">
         {{ $siteLanguages := .Site.Languages}}
         {{ $pageLang := .Page.Lang}}
@@ -120,7 +114,6 @@
         {{ end }}
         {{ end }}
       </select>
-      -->
       {{ end }}
       <!-- /desktop-menu -->
 
@@ -193,7 +186,7 @@
           <p>{{ .content | markdownify | emojify }}</p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang" {{ if .download }}download{{ if .filename }}="{{ .filename }}" {{ end }} {{ end }}> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
+          <a target="_blank" href="{{ .link | absURL }}" class="download-cv hvr-icon-hang" {{ if .download }}download{{ if .filename }}="{{ .filename }}" {{ end }} {{ end }}> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
           {{ end }}
           {{ end }}
         </div>
@@ -210,7 +203,7 @@
     <div class="row experience-skill">
       {{ if $data.homepage.formation.enable }}
       {{ with $data.homepage.formation }}
-      <div class="col-lg-12 col-sm-12 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
         <h3>{{ .title }}</h3>
         <ul class="experience-chart">
           {{ range .formation_list }}
@@ -230,7 +223,7 @@
 
       {{ if $data.homepage.skill.enable }}
       {{ with $data.homepage.skill }}
-      <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-lg-12 col-sm-12 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
         <h3>{{ .title }}</h3>
         <div class="skill-progress-bar">
           {{ range .skill_list }}
@@ -271,7 +264,7 @@
 
       {{ if $data.homepage.skill.enable }}
       {{ with $data.homepage.skill }}
-      <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-lg-12 col-sm-12 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
         <h3>{{ .title }}</h3>
         <div class="skill-progress-bar">
           {{ range .skill_list }}
@@ -295,7 +288,7 @@
     =============================== -->
 
 <!-- =============================
-      Start Skills
+      Start Services
     =============================== -->
 <section class="services" id="service">
   {{ if $data.homepage.service.enable }}
@@ -315,8 +308,7 @@
                 <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name | markdownify }}">
               </div>
               <div class="service-label"><h2>{{ .name | markdownify }}</h2>
-                <p>{{ .content | markdownify }}</p>
-              </div>
+              <p>{{ .content | markdownify }}</p></div>
             </div>
             {{ end }}
           </div>
@@ -369,18 +361,18 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-10 col-md-10 col-sm-10 col-10 mx-auto">
+      <div class="col-lg-10 col-md-10 col-sm-10 col-10 mx-auto" id="project">
         <div class="row filtr-container wow fadeInUp list" data-wow-duration="1.5s">
           {{ range .portfolio_list }}
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item" data-category="{{ .category | urlize }}">
-            <h3>{{ .name | safeHTML }}</h3>
-            {{ .date }}
-            <div>
-              <a href="https://foukette.github.io/Portfolio/project/{{ .label | safeHTML }}/" title="{{ .name | safeHTML }}">
-                  <img src="{{ .image | absURL }}" alt="{{ .name | safeHTML }}">
-              </a>
-              <p class="portfolio_descritpion">{{ .description}}</p>
-              {{ .label | safeHTML }}
+            <div class="project">
+              <h2 class="project-title">{{ .name | markdownify }}</h2>
+              <span class="project-date">{{ .date | markdownify }}</span><br>
+                  <img src="{{ .image | absURL }}" alt="{{ .name | safeHTML }}">
+                  <br><br>
+                <div id="{{ .name | safeHTML }}" class="infobulle" onclick="cache();"></div>
+                <button id="read-more{{ .name | safeHTML }}" onclick="montre('{{ .name | safeHTML }}','{{ .intro | safeHTML }}<br><br>{{ .para | safeHTML }}<br><br>{{ .para2 | safeHTML }}<br><br><br>')">Read More</button><br><br>
+              <a href="{{ .link | absURL}}" target="_blank">Link to the github repository</a>
             </div>
           </div>
           {{ end }}
@@ -392,6 +384,31 @@
 {{ end }}
 {{ end }}
 
+<script>
+var open = 0;
+var close = 0;
+
+function montre(name, text) {
+  if(document.getElementById('read-more' + name).innerHTML == "Read More"){
+    open += 1;
+    console.log(open)
+    document.getElementById(name).innerHTML = text;
+    document.getElementById('read-more' + name).innerHTML="Close";
+    document.getElementById('project').style.paddingBottom = '400px';
+  }
+  else{
+    document.getElementById(name).innerHTML = "";
+    document.getElementById('read-more' + name).innerHTML="Read More";
+    close +=1 ;
+    console.log(open,close)
+    if(close == open){
+      document.getElementById('project').style.paddingBottom = '0px';
+    }
+  }
+
+
+}
+</script>
 <!-- =============================
        End Portfolio
     =============================== -->
@@ -451,25 +468,12 @@
     <div class="row">
       <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
         <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ $data.homepage.contact.title }}</h1>
-        <form method="POST" action="{{ .Site.Params.contact_form_action }}" data-toggle="validator">
-          <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
-            <div class="form-group col-lg-6">
-              <input class="form-control" type="text" name="username" id="username" placeholder="Name" required>
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-lg-6">
-              <input class="form-control" type="email" id="email" name="email" placeholder="Email" required>
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-lg-12">
-              <textarea class="form-control" name="message" id="message" rows="12" placeholder="Message"></textarea>
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-lg-12 sub-button">
-              <button class="submit form-control hvr-icon-push" type="submit" value="send"> Submit </button>
-            </div>
-          </div>
-        </form>
+        <p>
+          <a target="_blank" style="color: rgb(255, 255, 255); text-decoration: none; font-size:25px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.color='#FFF'; this.style.textDecoration='none'" href="https://www.linkedin.com/in/florian-deconinck-28500a1a2/"><i class="fa fa-linkedin-square"></i> Deconinck Florian</a>
+        </p>
+        <p>
+          <a target="_blank" style="color: rgb(255, 255, 255); text-decoration: none; font-size:25px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.color='#FFF'; this.style.textDecoration='none'" href="mailto:florian.deconinck@isen.yncrea.fr"><i class="fa fa-envelope"></i> florian.deconinck@isen.yncrea.fr</a>
+        </p>
       </div>
     </div>
     <div class="row">
@@ -482,6 +486,9 @@
         </ul>
         <div class="to-top">
           <a href="#home"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <div class="credit">
+          <i class="fa fa-copyright"></i> {{ .Site.Params.copyright | markdownify }}
         </div>
       </div>
     </div>
