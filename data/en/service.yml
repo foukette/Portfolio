@@ -1,0 +1,34 @@
+################################# Service #################################
+service:
+  enable : true
+  title : My Skills
+  service_item :
+    # service item loop
+    - name : "Python"
+      content : "Pandas, Numpy, Scikit-learn, Matplotlib, OpenCv"
+      image : "images/icons/Python.png"
+
+    # service item loop
+    - name : "Web technologies"
+      content : " HTML/CSS, JavaScript, Java, PHP"
+      image : "images/icons/web.png"
+
+    # service item loop
+    - name : "Other language"
+      content : "R, C, C++"
+      image : "images/icons/programming.png"
+
+    # service item loop
+    - name : "Soft skills"
+      content : "Teamwork, Problem-solving, Adaptability, Critical thinking, Organization"
+      image : "images/icons/softskills.png"
+
+    # service item loop
+    - name : "English"
+      content: "Level B2, Cambridge English B2 First"
+      image : "images/icons/english.jpg"
+
+    # service item loop
+    - name : "Spanish"
+      content : "Elementary"
+      image : "images/icons/spanish.png"

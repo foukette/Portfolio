@@ -1,0 +1,12 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/bigdata.webp"
+  bg_image : "images/backgrounds/bigdata.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "I'm Deconinck Florian"
+  content : "I’m a first year student of a Master’s degree in Big Data. I am looking for a three-month or four-month intership in Big Data from the beginning of May to the end of August 2021."
+  button:
+    enable : true
+    label : "DOWNLOAD MY CV"
+    link : "cv/Curriculumvitae.pdf"

@@ -1,0 +1,28 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Contact Me
+  subtitle : Contact Details
+  content :
+
+  # Contact details
+  contact_list:
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "Lille, France"
+
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "Phone: +33 6 95 76 00 11"
+
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: florian.deconinck@isen.yncrea.fr"
+
+
+  # Contact form
+  contact_form:
+    enable : false
+    form_action : "#" #contact form works with https://formspree.io
+    name : "Your Name"
+    email : "Your Email"
+    subject : "Subject"
+    message : "Message"
+    submit : "Submit"

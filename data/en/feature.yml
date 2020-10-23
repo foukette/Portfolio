@@ -1,0 +1,27 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
+  title : About me
+  content : ""
+  feature_item :
+      # feature item loop
+    - title : Formation
+      icon : ti-pencil # themify icon pack : https://themify.me/themify-icons
+      content : Graduated in June 2017 of a scientific french high School diploma with honours and English option. Currently in Master I in Isen Lille
+
+      # feature item loop
+    - title : Big Data
+      icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
+      content : Currently in Master I specializing in Big Data.
+
+      # feature item loop
+    - title : Sport
+      icon : ti-basketball # themify icon pack : https://themify.me/themify-icons
+      content : I am passionate by sport. I played tennis, for 7 years, soccer, volleyball, badminton. I love spending my free time watching sports games.
+
+      # feature item loop
+    - title : Easy Customization
+      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
