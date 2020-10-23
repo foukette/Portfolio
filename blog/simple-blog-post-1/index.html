@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Tennis Prediction</title>
+
+	<!-- mobile responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Logic Regression Tennis Prediction">
+	
+	<meta name="author" content="Themefisher">
+	<meta name="generator" content="Hugo 0.76.4" />
+
+	<!-- plugins -->
+	
+	<link rel="stylesheet" href="https://foukette.github.io/Portfolio/plugins/bootstrap/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="https://foukette.github.io/Portfolio/plugins/themify-icons/themify-icons.css">
+	
+	<link rel="stylesheet" href="https://foukette.github.io/Portfolio/plugins/magnific-popup/magnific-popup.css">
+	
+	<link rel="stylesheet" href="https://foukette.github.io/Portfolio/plugins/slick/slick.css">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anaheim%7cQuattrocento&#43;Sans:400,700&amp;display=swap">
+	
+
+	<!-- Main Stylesheet -->
+	
+	<link rel="stylesheet" href="https://foukette.github.io/Portfolio/css/style.min.css" media="screen">
+
+	<!-- Custom stylesheet - for your changes -->
+	
+  <link rel="stylesheet" href="https://foukette.github.io/Portfolio/css/custom.min.css" media="screen">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="https://foukette.github.io/Portfolio/images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="https://foukette.github.io/Portfolio/images/favicon.png" type="image/x-icon">
+
+	
+
+</head>
+
+
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
+  <div id="content">
+    
+
+
+<section class="sticky-top navigation">
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand p-0" href="/Portfolio">
+				
+				Portfolio
+				
+			</a>
+
+			<button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navigation">
+				<ul class="navbar-nav ml-auto">
+					
+					<li class="nav-item">
+            <a class="nav-link" href="https://foukette.github.io/Portfolio/#feature">About me</a>
+					</li>
+					
+					<li class="nav-item">
+            <a class="nav-link" href="https://foukette.github.io/Portfolio/#services">Skills</a>
+					</li>
+					
+					<li class="nav-item">
+            <a class="nav-link" href="https://foukette.github.io/Portfolio/#blog">Projects</a>
+					</li>
+					
+					<li class="nav-item">
+            <a class="nav-link" href="https://foukette.github.io/Portfolio/#contact">Contact</a>
+					</li>
+					
+				</ul>
+				
+				<select id="select-language" onchange="location = this.value;">
+					
+					
+					
+					
+					
+					
+					
+					
+					<option id="en" value="https://foukette.github.io/Portfolio/blog/simple-blog-post-1/" selected>En
+					</option>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<option id="fr" value="https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-1/">Fr</option>
+					
+					
+					
+					
+				</select>
+				
+			</div>
+		</nav>
+	</div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h1>Tennis Prediction</h1>
+        <ul class="list-inline mb-50">
+          <li class="list-inline-item"><a href="/Portfolio/author/deconinck-florian/">Deconinck Florian</a></li>
+          <li class="list-inline-item">Monday, Jun 15, 2020</li>
+        </ul>
+        <img class="img-fluid mb-50 lozad" data-src="https://foukette.github.io/Portfolio/images/blog/tennis.jpg" alt="blog-image">
+      </div>
+      <div class="col-lg-8 offset-lg-2">
+        <div class="post-single-content" style="color:#737f8a !important">
+          <p>This is my first project in Data Science. I&rsquo;m a fan of tennis, after practicing during 7 years. I missed the court. What could be more interesting than studying Data Science with a little bit of nostalgia. We tried to answer : Can tennis outcomes be predicted thanks to data available on the internet ?</p>
+<p>I did this project with a friend of mine : <a href="https://github.com/Thrynk">Thomas CARIN</a>, we had 3 weeks to do the analysis and create a dashboard on a website to see latest tweets regarding tennis, see different results of tennis matches and link our predictions to it.</p>
+<p>We reached an accuracy of 65% by using elo rating of player in a Logistic Regression. That is a good score already but we then tried to do a more deeper analysis.</p>
+<p>We tried to compute more features to see if we can beat this accuracy :</p>
+<p>We performed different steps to reach our goal :</p>
+<ul>
+<li>
+<p>Data collection : we got our data from a website that freely gives a pre-populated database with tennis results and a lot of information on players. This website is Ultimate tennis statistics</p>
+</li>
+<li>
+<p>Data cleaning : we checked all features to see if some important data was missing. We saw that we had matches duplicates, we decided to drop those duplicates and reverse half of the matches to get a balanced sample. We also dropped features that we weren&rsquo;t interested in like match_id, player_rank (we preferred elo_rating which is more accurate) and surface. We handled NA values by dropping records where missing values were essential for future steps. We also saw that missing values were mostly coming from atypical tournaments like Davis Cup or ATP Finals.</p>
+</li>
+<li>
+<p>Feature scaling : we then scaled our features for the Logistic Regression</p>
+</li>
+<li>
+<p>Feature Engineering : We computed new statistics as first serve success percentage, winning on first serve percentage, aces, percentage of matches won, and also head to head statistics between players. We then performed feature difference to have one feature for each statistics representing the difference of levels between the 2 players on this statistics.</p>
+</li>
+<li>
+<p>Feature selection : We performed recursive feature elimination to keep only the most important features.</p>
+</li>
+<li>
+<p>Modeling : We got a 64% accuracy, this model didn&rsquo;t outperform our previous model, our features don&rsquo;t seem to bring more information than elo rating.</p>
+</li>
+</ul>
+<p>In conclusion, with more time to research really important features, with more time to do exploratory analysis and statistics tests to evaluate our features, we could expect to improve our model. We were a little bit &ldquo;disappointed&rdquo; not by our work but by the results, but we will definitely come back on this study, with more knowledge (we are starting a major in Data Science) and with more time to create a good model, and study its return on investment</p>
+
+        </div>
+        
+        
+        
+        
+        <div class="mt-5">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </div><!-- end Contact Area -->
+<footer id="footer" class="section-bg">
+	<div class="container">
+		<div class="row wow fadeInUp" data-wow-duration="500ms">
+			<div class="col-xl-12">
+
+				<!-- Footer Social Links -->
+				<div class="social-icon">
+					<ul class="list-inline">
+						
+						<li class="list-inline-item"><a target="blank" href="https://github.com/foukette"><i class="ti-github"></i></a></li>
+						
+						<li class="list-inline-item"><a target="blank" href="https://www.linkedin.com/in/florian-deconinck-28500a1a2/"><i class="ti-linkedin"></i></a></li>
+						
+						<li class="list-inline-item"><a target="blank" href="mailto:florian.deconinck@isen.yncrea.fr"><i class="ti-email"></i></a></li>
+						
+					</ul>
+				</div>
+
+				<!-- copyright -->
+				<div class="copyright text-center">
+					<p>Deconinck Florian 2020</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- /footer -->
+
+<!-- Google Map API -->
+
+
+<!-- JS Plugins -->
+
+<script src="https://foukette.github.io/Portfolio/plugins/jquery/jquery.min.js"></script>
+
+<script src="https://foukette.github.io/Portfolio/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://foukette.github.io/Portfolio/plugins/slick/slick.min.js"></script>
+
+<script src="https://foukette.github.io/Portfolio/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://foukette.github.io/Portfolio/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://foukette.github.io/Portfolio/plugins/lazy-load/lozad.min.js"></script>
+
+<script src="https://foukette.github.io/Portfolio/plugins/google-map/map.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://foukette.github.io/Portfolio/js/script.min.f4bb7735e5be19769aa51c5ec9254435a24f857fd2479585dfbba7eec477f05e60916c56630936db332a8360608119e4.js" integrity="sha384-9Lt3NeW&#43;GXaapRxeySVENaJPhX/SR5WF37un7sR38F5gkWxWYwk22zMqg2BggRnk"></script>
+
+
+
+</body>
+
+</html>

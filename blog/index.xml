@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Portfolio</title>
+    <link>https://foukette.github.io/Portfolio/blog/</link>
+    <description>Recent content in Blogs on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Deconinck Florian 2020</copyright>
+    <lastBuildDate>Thu, 22 Oct 2020 12:52:36 +0600</lastBuildDate><atom:link href="https://foukette.github.io/Portfolio/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dots and Boxes</title>
+      <link>https://foukette.github.io/Portfolio/blog/simple-blog-post-2/</link>
+      <pubDate>Thu, 22 Oct 2020 12:52:36 +0600</pubDate>
+      
+      <guid>https://foukette.github.io/Portfolio/blog/simple-blog-post-2/</guid>
+      <description>In this school project, we have to program an AI playing the game Dots and Boxes.</description>
+    </item>
+    
+    <item>
+      <title>Masked recognition AI</title>
+      <link>https://foukette.github.io/Portfolio/blog/simple-blog-post-3/</link>
+      <pubDate>Sat, 17 Oct 2020 12:52:36 +0600</pubDate>
+      
+      <guid>https://foukette.github.io/Portfolio/blog/simple-blog-post-3/</guid>
+      <description>In this school project, we are a team of 5 students, and we are challenged to program an AI that will understand thanks to a photo if a human is wearing a safety mask or not, but also if this safety mask is well-worn</description>
+    </item>
+    
+    <item>
+      <title>Tennis Prediction</title>
+      <link>https://foukette.github.io/Portfolio/blog/simple-blog-post-1/</link>
+      <pubDate>Mon, 15 Jun 2020 12:52:36 +0600</pubDate>
+      
+      <guid>https://foukette.github.io/Portfolio/blog/simple-blog-post-1/</guid>
+      <description>This is my first project in Data Science. I&amp;rsquo;m a fan of tennis, after practicing during 7 years.</description>
+    </item>
+    
+  </channel>
+</rss>
