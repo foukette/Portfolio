@@ -10,4 +10,4 @@ banner:
   button:
     enable : true
     label : "Télecharger mon CV"
-    link : "cv/Cv.pdf"
+    link : "cv/Curriculumvitae.pdf"

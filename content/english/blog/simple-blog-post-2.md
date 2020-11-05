@@ -7,7 +7,7 @@ author: Deconinck Florian
 description : "Build an AI that plays dots and boxes"
 ---
 
-In this Master I project, we have to program an AI playing the game Dots and Boxes. Our AI will be evaluated in a tournament where all the AI of the class are attending.
+This project is part of my Master I in Big Data. We have to program an AI playing the game Dots and Boxes. Our AI will be evaluated in a tournament where all the AI of the class are attending.
 
 This project is part of the course of artificial intelligence in which we studied linear regression, decision trees, the K-NN algorithm and neural networks.
 

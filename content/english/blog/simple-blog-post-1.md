@@ -7,7 +7,7 @@ author: Deconinck Florian
 description : "Logic Regression Tennis Prediction"
 ---
 
-Passionate about sports and having played tennis for 7 years, what could be more interesting than to start studying Big Data with a project around this theme. We tried to answer : Can tennis outcomes be predicted thanks to data available on the internet ?
+Passionate about sports and having played tennis, what could be more interesting than studying Big Data this theme. We tried to answer : Can tennis outcomes be predicted thanks to data available on the internet ?
 
 
 I did this project in the third year, as part of my studies, with a long-time friend : [Thomas CARIN](https://github.com/Thrynk), we had 3 weeks to do the analysis and create a dashboard on a website to see latest tweets regarding tennis, see different results of tennis matches and link our predictions to it.

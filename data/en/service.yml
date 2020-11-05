@@ -10,7 +10,7 @@ service:
 
     # service item loop
     - name : "Technologies Web"
-      content : " HTML/CSS, JavaScript, Java, PHP"
+      content : "HTML/CSS, JavaScript, Java, PHP"
       image : "images/icons/web.png"
 
     # service item loop
