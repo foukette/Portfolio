@@ -1,8 +1,8 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/about-business-man.jpg
-  image_webp : images/about/about-business-man.webp
+  image : images/about/DSC_0179.jpg
+  image_webp : images/about/DSC_0179.webp
   title : About me
   content : ""
   feature_item :
@@ -14,12 +14,12 @@ feature:
       # feature item loop
     - title : Big Data
       icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
-      content : Currently in Master I specializing in Big Data.
+      content : I am currently in Master I specializing in Big Data. I’m really fascinated by what we can learn from Data, and I’m convinced that Data is the current revolution and I want to be part of it.
 
       # feature item loop
     - title : Sport
       icon : ti-basketball # themify icon pack : https://themify.me/themify-icons
-      content : I am passionate by sport. I played tennis, for 7 years, soccer, volleyball, badminton. I love spending my free time watching sports games.
+      content : I am passionate by sport. I played tennis, for 7 years but also soccer, volleyball, badminton or atletics. I love spending my free time watching sports games.
 
       # feature item loop
     - title : Easy Customization

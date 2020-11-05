@@ -107,19 +107,15 @@
   
   <url>
     <loc>https://foukette.github.io/Portfolio/author/deconinck-florian/</loc>
-  </url>
-  
-  <url>
-    <loc>https://foukette.github.io/Portfolio/author/mark-dinn/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/Portfolio/fr/author/mark-dinn/"
+                href="https://foukette.github.io/Portfolio/fr/author/deconinck-florian/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/Portfolio/author/mark-dinn/"
+                href="https://foukette.github.io/Portfolio/author/deconinck-florian/"
                 />
   </url>
   

@@ -7,9 +7,10 @@ author: Deconinck Florian
 description : "Logic Regression Tennis Prediction"
 ---
 
-This is my first project in Data Science. I'm a fan of tennis, after practicing during 7 years. I missed the court. What could be more interesting than studying Data Science with a little bit of nostalgia. We tried to answer : Can tennis outcomes be predicted thanks to data available on the internet ?
+Passionate about sports and having played tennis for 7 years, what could be more interesting than to start studying Big Data with a project around this theme. We tried to answer : Can tennis outcomes be predicted thanks to data available on the internet ?
 
-I did this project with a friend of mine : [Thomas CARIN](https://github.com/Thrynk), we had 3 weeks to do the analysis and create a dashboard on a website to see latest tweets regarding tennis, see different results of tennis matches and link our predictions to it.
+
+I did this project in the third year, as part of my studies, with a long-time friend : [Thomas CARIN](https://github.com/Thrynk), we had 3 weeks to do the analysis and create a dashboard on a website to see latest tweets regarding tennis, see different results of tennis matches and link our predictions to it.
 
 We reached an accuracy of 65% by using elo rating of player in a Logistic Regression. That is a good score already but we then tried to do a more deeper analysis.
 
@@ -30,3 +31,5 @@ We performed different steps to reach our goal :
 - Modeling : We got a 64% accuracy, this model didn't outperform our previous model, our features don't seem to bring more information than elo rating.
 
 In conclusion, with more time to research really important features, with more time to do exploratory analysis and statistics tests to evaluate our features, we could expect to improve our model. We were a little bit "disappointed" not by our work but by the results, but we will definitely come back on this study, with more knowledge (we are starting a major in Data Science) and with more time to create a good model, and study its return on investment
+
+[Link to the github repository](https://github.com/Thrynk/Tennis-prediction)

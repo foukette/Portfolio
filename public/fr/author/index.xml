@@ -8,21 +8,12 @@
     <language>fr-fr</language>
     <copyright>Deconinck Florian 2020</copyright><atom:link href="https://foukette.github.io/Portfolio/fr/author/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>John Doe</title>
-      <link>https://foukette.github.io/Portfolio/fr/author/john-doe/</link>
+      <title>Florian Deconinck</title>
+      <link>https://foukette.github.io/Portfolio/fr/author/deconinck-florian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://foukette.github.io/Portfolio/fr/author/john-doe/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
-    </item>
-    
-    <item>
-      <title>Mark Dinn</title>
-      <link>https://foukette.github.io/Portfolio/fr/author/mark-dinn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://foukette.github.io/Portfolio/fr/author/mark-dinn/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+      <guid>https://foukette.github.io/Portfolio/fr/author/deconinck-florian/</guid>
+      <description></description>
     </item>
     
   </channel>

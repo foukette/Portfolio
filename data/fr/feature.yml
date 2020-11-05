@@ -1,26 +1,26 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/about-business-man.jpg
-  image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
-  feature_item : 
+  image : images/about/DSC_0179.jpg
+  image_webp : images/about/DSC_0179.webp
+  title : Informations personnelles
+  content : ""
+  feature_item :
       # feature item loop
-    - title : SEO Optimized
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-      # feature item loop
-    - title : Easy Customization
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Formation
+      icon : ti-pencil # themify icon pack : https://themify.me/themify-icons
+      content : Diplomé d'un baccalauréat scientifique en Juin 2017 au lycée Institut de Genech avec mention bien et option européeenne. Aujourd'hui je suis en Master I à l'Isen à Lille.
 
       # feature item loop
-    - title : SEO Optimized
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
+    - title : Big Data
+      icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
+      content : Je suis entré en spécialisation Big Data à Isen Lille en 2020. Je suis passioné par la lecture des données et ce qu'ils peuvent nous apprendre. Je suis convaincu que les données sont la révolution actuelle et je veux en faire partie.
+
+      # feature item loop
+    - title : Sport
+      icon : ti-basketball # themify icon pack : https://themify.me/themify-icons
+      content : Je suis passionné par le sport. J'ai fais 7 ans de tennis et j'ai pratiqué le badminton, le football, l'athlétisme ou encore le volleyball. Je passe aussi beaucoup de mon temps libre à regarder du sport à la télévision.
+
       # feature item loop
     - title : Easy Customization
       icon : ti-announcement # themify icon pack : https://themify.me/themify-icons

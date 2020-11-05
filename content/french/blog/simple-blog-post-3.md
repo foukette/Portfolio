@@ -1,18 +1,18 @@
 ---
-title: "Simple Blog Post"
-date: 2018-09-12T12:52:36+06:00
-image_webp: images/blog/blog-post-1.webp
-image: images/blog/blog-post-1.jpg
-author: John Doe
-description : "This is meta description"
+title: "IA reconnaissance port du masque"
+date: 2020-10-17T12:52:36+06:00
+image_webp: images/blog/mask.webp
+image: images/blog/mask.jpg
+author: Deconinck Florian
+description : "Projet de construction d'une IA Deep Learning qui reconnaîtra si l'Homme porte un masque ou non, et si ce masque est bien placé"
 ---
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+La crise sanitaire du COVID-19 (connu sous le nom de Coronavirus) frappant le monde entier a obligé tout le monde à porter un masque. Outre les efforts des gouvernements, le virus se propage toujours et notamment car certaines personnes ne portent pas correctement leur masque. Dans ce projet, nous proposerons de résoudre ce problème avec le Deep Learning. Notre algorithme détectera si quelqu'un porte ou non un masque et si oui, s'il est bien porté.
 
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+Dans ce projet scolaire, nous sommes une équipe de 5 élèves, et nous sommes mis au défi de programmer une IA qui comprendra grâce à une photo si un humain porte un masque ou non, mais aussi si ce masque est bien porté.
 
-> Design is not just what it looks like and feels like. Design is how it works.
+Ce projet m'aidera à approfondir fortement mes connaissances sur les réseaux de neurones et de découvrir comment fonctionne la lecture d'images.
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+Il n'y a pas beaucoup de contenu maintenant, car je viens de démarrer le projet. Mais je mettrai à jour cette page pendant le projet, alors restez en contact!
 
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+[Lien vers le Github](https://github.com/romainmeunier93/MaskProject)

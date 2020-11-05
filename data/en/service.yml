@@ -5,16 +5,16 @@ service:
   service_item :
     # service item loop
     - name : "Python"
-      content : "Pandas, Numpy, Scikit-learn, Matplotlib, OpenCv"
+      content : "Pandas, Numpy, Tensorflow, Scikit-learn, Matplotlib, OpenCv"
       image : "images/icons/Python.png"
 
     # service item loop
-    - name : "Web technologies"
+    - name : "Technologies Web"
       content : " HTML/CSS, JavaScript, Java, PHP"
       image : "images/icons/web.png"
 
     # service item loop
-    - name : "Other language"
+    - name : "Other languages"
       content : "R, C, C++"
       image : "images/icons/programming.png"
 
@@ -25,7 +25,7 @@ service:
 
     # service item loop
     - name : "English"
-      content: "Level B2, Cambridge English B2 First"
+      content: "Level B2, Cambridge English B2 First Certificate"
       image : "images/icons/english.jpg"
 
     # service item loop

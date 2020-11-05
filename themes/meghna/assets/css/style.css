@@ -15,7 +15,7 @@ html {
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #c8cacc;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -743,6 +743,7 @@ a:hover {
 .con-info i,
 .con-info span {
   padding-right: 5px;
+  font-size: 20px;
 }
 
 .error {
@@ -950,6 +951,7 @@ a:hover {
   padding: 60px 20px;
   border: 1px solid rgba(236, 239, 241, 0.2);
   margin-bottom: 40px;
+  background-color:#495059;
 }
 
 .service-block .service-icon {

@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-8/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://foukette.github.io/Portfolio/fr/blog/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <lastmod>2020-10-22T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -23,43 +18,8 @@
   </url>
   
   <url>
-    <loc>https://foukette.github.io/Portfolio/fr/blog/installation/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foukette.github.io/Portfolio/fr/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://foukette.github.io/Portfolio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://foukette.github.io/Portfolio/fr/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-1/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://foukette.github.io/Portfolio/blog/simple-blog-post-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-1/"
-                />
-  </url>
-  
-  <url>
     <loc>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-2/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
+    <lastmod>2020-10-22T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -73,8 +33,23 @@
   </url>
   
   <url>
+    <loc>https://foukette.github.io/Portfolio/fr/</loc>
+    <lastmod>2020-10-22T12:52:36+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://foukette.github.io/Portfolio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://foukette.github.io/Portfolio/fr/"
+                />
+  </url>
+  
+  <url>
     <loc>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-3/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
+    <lastmod>2020-10-17T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -88,23 +63,18 @@
   </url>
   
   <url>
-    <loc>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-4/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-5/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-6/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-7/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
+    <loc>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-1/</loc>
+    <lastmod>2020-06-15T12:52:36+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://foukette.github.io/Portfolio/blog/simple-blog-post-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-1/"
+                />
   </url>
   
   <url>
@@ -136,20 +106,16 @@
   </url>
   
   <url>
-    <loc>https://foukette.github.io/Portfolio/fr/author/john-doe/</loc>
-  </url>
-  
-  <url>
-    <loc>https://foukette.github.io/Portfolio/fr/author/mark-dinn/</loc>
+    <loc>https://foukette.github.io/Portfolio/fr/author/deconinck-florian/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/Portfolio/author/mark-dinn/"
+                href="https://foukette.github.io/Portfolio/author/deconinck-florian/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/Portfolio/fr/author/mark-dinn/"
+                href="https://foukette.github.io/Portfolio/fr/author/deconinck-florian/"
                 />
   </url>
   

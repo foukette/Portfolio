@@ -28,3 +28,15 @@
   translation: Contact
 - id: themefisher
   translation: Themefisher
+- id: my
+  translation: My
+- id: project
+  translation: Projects
+- id: About me
+  translation: About me
+- id: Skills
+  translation: Skills
+- id: Projects
+  translation: Projects
+- id: Contact
+  translation: Contact
