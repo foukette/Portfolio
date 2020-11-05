@@ -7,104 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Deconinck Florian 2020</copyright>
-    <lastBuildDate>Wed, 12 Sep 2018 14:51:12 +0600</lastBuildDate><atom:link href="https://foukette.github.io/Portfolio/fr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 12:52:36 +0600</lastBuildDate><atom:link href="https://foukette.github.io/Portfolio/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Are You Doing the Right Way</title>
-      <link>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-8/</link>
-      <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
-      
-      <guid>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-8/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>How To Setup Meghna Hugo</title>
-      <link>https://foukette.github.io/Portfolio/fr/blog/installation/</link>
-      <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
-      
-      <guid>https://foukette.github.io/Portfolio/fr/blog/installation/</guid>
-      <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer.</description>
-    </item>
-    
-    <item>
-      <title>Simple Blog Post</title>
-      <link>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-1/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-1/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>Simple Blog Post</title>
+      <title>Dots and Boxes</title>
       <link>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-2/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      <pubDate>Thu, 22 Oct 2020 12:52:36 +0600</pubDate>
       
       <guid>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-2/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
+      <description>Ce projet est a réalisé dans le cadre de mon Master en Big Data. Nous devons programmer une IA jouant au jeu Dots and Boxes.</description>
     </item>
     
     <item>
-      <title>Simple Blog Post</title>
+      <title>IA reconnaissance port du masque</title>
       <link>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-3/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      <pubDate>Sat, 17 Oct 2020 12:52:36 +0600</pubDate>
       
       <guid>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-3/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
+      <description>La crise sanitaire du COVID-19 (connu sous le nom de Coronavirus) frappant le monde entier a obligé tout le monde à porter un masque.</description>
     </item>
     
     <item>
-      <title>Simple Blog Post</title>
-      <link>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-4/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      <title>Prédiction tennis</title>
+      <link>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-1/</link>
+      <pubDate>Mon, 15 Jun 2020 12:52:36 +0600</pubDate>
       
-      <guid>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-4/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
+      <guid>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-1/</guid>
+      <description>Passionné de sport et ayant pratiqué le tennis durant 7 années, quoi de plus intéressant que de commencer à étudier le Big Data avec un projet autour de ce thème.</description>
     </item>
     
     <item>
-      <title>Simple Blog Post</title>
-      <link>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-5/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-5/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>Simple Blog Post</title>
-      <link>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-6/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-6/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>Simple Blog Post</title>
-      <link>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-7/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-7/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>John Doe</title>
-      <link>https://foukette.github.io/Portfolio/fr/author/john-doe/</link>
+      <title>Florian Deconinck</title>
+      <link>https://foukette.github.io/Portfolio/fr/author/deconinck-florian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://foukette.github.io/Portfolio/fr/author/john-doe/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
-    </item>
-    
-    <item>
-      <title>Mark Dinn</title>
-      <link>https://foukette.github.io/Portfolio/fr/author/mark-dinn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://foukette.github.io/Portfolio/fr/author/mark-dinn/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+      <guid>https://foukette.github.io/Portfolio/fr/author/deconinck-florian/</guid>
+      <description></description>
     </item>
     
   </channel>
