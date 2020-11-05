@@ -20,8 +20,3 @@ feature:
     - title : Sport
       icon : ti-basketball # themify icon pack : https://themify.me/themify-icons
       content : I am passionate by sport. I played tennis, for 7 years but also soccer, volleyball, badminton or atletics. I love spending my free time watching sports games.
-
-      # feature item loop
-    - title : Easy Customization
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

@@ -20,8 +20,3 @@ feature:
     - title : Sport
       icon : ti-basketball # themify icon pack : https://themify.me/themify-icons
       content : Je suis passionné par le sport. J'ai fais 7 ans de tennis et j'ai pratiqué le badminton, le football, l'athlétisme ou encore le volleyball. Je passe aussi beaucoup de mon temps libre à regarder du sport à la télévision.
-
-      # feature item loop
-    - title : Easy Customization
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
