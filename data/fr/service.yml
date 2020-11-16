@@ -5,7 +5,7 @@ service:
   service_item :
     # service item loop
     - name : "Python"
-      content : "Pandas, Numpy, Tensorflow, Scikit-learn, Matplotlib, OpenCv"
+      content : "Pandas, Numpy, Tensorflow, Scikit-learn, Matplotlib, Keras"
       image : "images/icons/Python.png"
 
     # service item loop
