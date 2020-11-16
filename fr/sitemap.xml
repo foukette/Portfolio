@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://foukette.github.io/Portfolio/fr/blog/</loc>
-    <lastmod>2020-10-22T12:52:36+06:00</lastmod>
+    <lastmod>2020-10-17T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,36 +14,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://foukette.github.io/Portfolio/fr/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-2/</loc>
-    <lastmod>2020-10-22T12:52:36+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://foukette.github.io/Portfolio/blog/simple-blog-post-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-2/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://foukette.github.io/Portfolio/fr/</loc>
-    <lastmod>2020-10-22T12:52:36+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://foukette.github.io/Portfolio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://foukette.github.io/Portfolio/fr/"
                 />
   </url>
   
@@ -59,6 +29,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-3/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://foukette.github.io/Portfolio/fr/</loc>
+    <lastmod>2020-10-17T12:52:36+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://foukette.github.io/Portfolio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://foukette.github.io/Portfolio/fr/"
                 />
   </url>
   
