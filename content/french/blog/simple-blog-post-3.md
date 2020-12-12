@@ -14,5 +14,3 @@ Dans ce projet scolaire, nous sommes une équipe de 5 élèves, et nous sommes m
 Ce projet m'aidera à approfondir fortement mes connaissances sur les réseaux de neurones et de découvrir comment fonctionne la lecture d'images.
 
 Il n'y a pas beaucoup de contenu maintenant, car je viens de démarrer le projet. Mais je mettrai à jour cette page pendant le projet, alors restez en contact!
-
-[Lien vers le Github](https://github.com/romainmeunier93/MaskProject)

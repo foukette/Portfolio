@@ -14,5 +14,3 @@ In this Master I project, we are a team of 5 students, and we are challenged to 
 This project will help me discover Neural Networks, and Computer Vision.
 
 There is not much content now, because we just started the project. But I will update this project page during the project, so stay in touch !
-
-[Link to the github repository](https://github.com/romainmeunier93/MaskProject)
